@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/beatriz/Área de Trabalho/ATIV1__ BEATRIZMARTINS/Biblioteca/Biblioteca.csproj": {}
+  },
+  "projects": {
+    "/home/beatriz/Área de Trabalho/ATIV1__ BEATRIZMARTINS/Biblioteca/Biblioteca.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/beatriz/Área de Trabalho/ATIV1__ BEATRIZMARTINS/Biblioteca/Biblioteca.csproj",
+        "projectName": "Biblioteca",
+        "projectPath": "/home/beatriz/Área de Trabalho/ATIV1__ BEATRIZMARTINS/Biblioteca/Biblioteca.csproj",
+        "packagesPath": "/home/beatriz/.nuget/packages/",
+        "outputPath": "/home/beatriz/Área de Trabalho/ATIV1__ BEATRIZMARTINS/Biblioteca/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/beatriz/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[3.2.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
