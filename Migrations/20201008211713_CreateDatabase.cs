@@ -53,6 +53,16 @@ namespace Biblioteca.Migrations
                 column: "LivroId");
         }
 
+            migrationBuilder.CreateTable(
+                name: "Logins",
+                columns: table => new
+                {
+                    Id = table.Column<int>(nullable: false)
+                        .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
+                    Senha = table.Column<string>(nullable: true),
+                    Nome = table.Column<string>(nullable: true),
+                }
+
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
